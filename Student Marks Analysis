@@ -1,0 +1,10 @@
+# Perform basic analysis on student marks
+
+import numpy as np
+
+marks = np.array([55, 72, 88, 91, 64, 77])
+
+print(f"Mean: {np.mean(marks)}")
+print(f"Median: {np.median(marks)}")
+print(f"Bonus Marks: {marks + 5}")
+print(f"First Three Marks: {marks[:3]}")
