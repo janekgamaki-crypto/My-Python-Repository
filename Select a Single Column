@@ -1,0 +1,9 @@
+# Select a single column from a DataFrame
+
+import pandas as pd
+
+students = pd.read_csv("students.csv")
+
+marks = students["Marks"]
+
+print(marks)
