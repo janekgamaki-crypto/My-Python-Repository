@@ -1,0 +1,8 @@
+# Calculate the mean and median of student marks
+
+import numpy as np
+
+marks = np.array([70, 85, 90, 60, 75])
+
+print(f"Mean: {np.mean(marks)}")
+print(f"Median: {np.median(marks)}")
