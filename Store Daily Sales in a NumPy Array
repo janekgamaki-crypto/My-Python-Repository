@@ -1,0 +1,7 @@
+# Store supermarket daily sales in a NumPy array
+
+import numpy as np
+
+daily_sales = np.array([1200, 1500, 1800, 2000, 1700])
+
+print(daily_sales)
