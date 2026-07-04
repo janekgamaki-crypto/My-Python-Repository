@@ -1,0 +1,11 @@
+# Access elements in a Pandas Series
+
+import pandas as pd
+
+student_marks = pd.Series(
+    [85, 78],
+    index=["Thabo", "Lerato"]
+)
+
+print(student_marks[0])          # By position
+print(student_marks["Thabo"])    # By label
