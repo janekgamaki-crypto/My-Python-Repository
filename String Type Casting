@@ -1,0 +1,5 @@
+# Convert an integer to a string
+
+text = str(100)
+print(text)
+print(type(text))
