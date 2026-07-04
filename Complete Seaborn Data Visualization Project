@@ -1,0 +1,33 @@
+# Complete solution for the Seaborn practice activity
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set_theme()
+
+car_data = pd.read_csv("car_data.csv")
+
+# Histogram
+sns.histplot(car_data["Price ($)"])
+plt.title("Distribution of Car Prices")
+plt.show()
+
+# Bar Plot
+sns.barplot(
+    x="Company",
+    y="Price ($)",
+    data=car_data
+)
+plt.title("Average Car Price by Company")
+plt.xticks(rotation=45)
+plt.show()
+
+# Scatter Plot
+sns.scatterplot(
+    x="Annual Income",
+    y="Price ($)",
+    data=car_data
+)
+plt.title("Annual Income vs Car Price")
+plt.show()
