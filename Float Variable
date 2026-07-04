@@ -1,0 +1,6 @@
+# Floating-point variable
+
+y = 10.5
+
+print(y)
+print(type(y))
