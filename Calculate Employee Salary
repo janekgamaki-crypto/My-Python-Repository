@@ -1,0 +1,9 @@
+# Calculate an employee's salary based on working days
+
+working_days = float(input("Enter the number of working days: "))
+daily_salary = float(input("Enter the daily salary: "))
+
+final_salary = working_days * daily_salary
+
+print(f"Working Days: {working_days}")
+print(f"Total Salary: {final_salary}")
