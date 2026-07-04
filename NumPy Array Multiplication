@@ -1,0 +1,7 @@
+# Demonstrate element-wise multiplication using a NumPy array
+
+import numpy as np
+
+marks = np.array([50, 60, 70])
+
+print(marks * 2)
