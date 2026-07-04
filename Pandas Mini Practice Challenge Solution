@@ -1,0 +1,16 @@
+# Complete solution to the Pandas practice challenge
+
+import pandas as pd
+
+students = pd.DataFrame({
+    "Name": ["Thabo", "Lerato", "Sipho", "Amara", "Priya"],
+    "Marks": [85, 70, 92, 60, 78]
+})
+
+print("All Records")
+print(students)
+
+print("\nStudents Scoring Above 75")
+print(students[students["Marks"] > 75])
+
+print(f"\nAverage Mark: {students['Marks'].mean():.2f}")
