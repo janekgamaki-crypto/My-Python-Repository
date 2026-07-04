@@ -1,0 +1,12 @@
+# Create a DataFrame from a list of dictionaries
+
+import pandas as pd
+
+data = [
+    {"Name": "Thabo", "Marks": 85},
+    {"Name": "Lerato", "Marks": 78}
+]
+
+students = pd.DataFrame(data)
+
+print(students)
