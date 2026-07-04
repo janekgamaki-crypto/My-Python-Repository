@@ -1,0 +1,7 @@
+# Find the remainder when a number is divided by 5
+
+number = int(input("Enter a number: "))
+
+remainder = number % 5
+
+print(f"Remainder when {number} is divided by 5: {remainder}")
