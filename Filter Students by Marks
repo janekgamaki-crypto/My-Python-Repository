@@ -1,0 +1,9 @@
+# Display students who scored more than 80
+
+import pandas as pd
+
+students = pd.read_csv("students.csv")
+
+high_achievers = students[students["Marks"] > 80]
+
+print(high_achievers)
