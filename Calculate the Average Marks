@@ -1,0 +1,9 @@
+# Calculate the average mark
+
+import pandas as pd
+
+students = pd.read_csv("students.csv")
+
+average_mark = students["Marks"].mean()
+
+print(f"Average Mark: {average_mark:.2f}")
